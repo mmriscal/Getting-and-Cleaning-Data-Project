@@ -113,7 +113,7 @@ for (i in 1:nrow(labels))
         }
 }
 
-write.table(Averages, file = "DataSet_sorted.txt", row.name=FALSE)
+write.table(Averages, file = "Tidy_Data_Set.txt", row.name=FALSE)
 
 
 
