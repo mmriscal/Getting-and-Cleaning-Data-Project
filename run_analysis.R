@@ -76,7 +76,9 @@ for (i in 1:nrow(labels))
 
 # 4.Appropriately labels the data set with descriptive variable names.
 
-# (Already done previously)
+# Already change the columns names from V1, V2, etc. to the short names like "tBodyAcc-mean", etc. 
+# I consider that the short names are descriptive enough. We could change the t for "time" and so on but
+# I think that it will add complexity to the data set
 
 
 
