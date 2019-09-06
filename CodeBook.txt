@@ -9,6 +9,14 @@ Project: Getting and Cleaning Data Course by JHU, Coursera.
 Date: 6-sep-2019
 ================================
 
+			* Data source * 
+
+Source data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Description of the dataset from the source website: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+=================================
+
 Variable 1:ACTIVITY
 Description: is a label indicating the kind of activity performed by the subject at the moment of the measure
 Values:
