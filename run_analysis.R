@@ -79,7 +79,14 @@ for (i in 1:nrow(labels))
 # Already change the columns names from V1, V2, etc. to the short names like "tBodyAcc-mean", etc. 
 # I consider that the short names are descriptive enough. We could change the t for "time" and so on but
 # I think that it will add complexity to the data set
+# Anyway, I could do this if required:
 
+# names(Experiment_mean)<-gsub("^t", "time", names(Experiment_mean))
+# names(Experiment_mean)<-gsub("^f", "frequency", names(Experiment_mean))
+# names(Experiment_mean)<-gsub("Acc", "Accelerometer", names(Experiment_mean))
+# names(Experiment_mean)<-gsub("Gyro", "Gyroscope", names(Experiment_mean))
+# names(Experiment_mean)<-gsub("Mag", "Magnitude", names(Experiment_mean))
+# names(Experiment_mean)<-gsub("BodyBody", "Body", names(Experiment_mean))
 
 
 
