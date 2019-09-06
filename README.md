@@ -32,6 +32,6 @@ The resulting data set is called Averages and it is saved in disk as "Tidy_Data_
     column 2 -- Subject: a number from 1 to 30 sorted by activity
     columns 3:81 -- Vector of data from accelerometer but only the measurements on the mean and standar deviation.
 
-
+The original data is available through https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
