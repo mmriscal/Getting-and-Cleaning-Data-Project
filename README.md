@@ -16,7 +16,7 @@ The resulting data frame is called Experiment and has the following variables:
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
-Analizing the text with regular expresions, it extracts only the variables in which the name contains "mean" or "std", and create a new data frame called Experiment_mean with only those variables. Note that it will take all words that contain "means" and "std", including the ones that end like std()-X, etc.
+Analizing the text with regular expresions, it extracts only the variables in which the name contains "mean" or "std", and create a new data frame called Experiment_mean with only those variables. Note that it will include the mean of the frecuency components and the additional vectors obteined by averaging the signals.
 
 3. Uses descriptive activity names to name the activities in the data set
 
