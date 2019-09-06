@@ -2,6 +2,7 @@
 ## COURSE PROJECT ## 
 ####################
 
+setwd("~/3. Personal/JHU - Data Science/3. Getting and Cleaning Data/Project")
 
 # 1. Merges the training and the test sets to create one data set.
 
